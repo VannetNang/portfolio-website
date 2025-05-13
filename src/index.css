@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+@theme {
+  --color-purple: #8685EF;
+  --color-grey-light: #FAF8FF;
+  --color-black: #141414;
+  --color-dark-black: #292735;
+}
+
+@utility heading-text {
+  @apply text-[48px] font-bold tracking-[8.2px] 
+}
+
+@utility semi-heading-text {
+  @apply text-[30px] font-medium tracking-[5.1px] 
+}
+
+@utility regular-text {
+  @apply text-[20px] font-medium tracking-[3.4px] 
+}
+
+@utility heading-text-mobile {
+  @apply text-[28px] font-bold tracking-[2px] 
+}
+
+@utility semi-heading-text-mobile {
+  @apply text-[20px] font-medium tracking-[1.4px] 
+}
+
+@utility regular-text-mobile {
+  @apply text-[14px] font-medium tracking-[1px] 
+}
+
+@utility logo-rounded {
+  @apply rounded-full w-[80px] h-[80px];
+}
+
+@utility logo-rounded-mobile {
+  @apply rounded-full w-[40px] h-[40px];
+}
+
+@utility flex-between {
+  @apply flex justify-between items-center;
+}
+
+@utility flex-center {
+  @apply flex justify-center items-center;
+}
+
+@utility hover-text {
+  @apply hover:text-purple;
+}
+
+@utility hover-dark {
+  @apply hover:opacity-75 transition-all duration-300 ease-in-out;
+}
+
+@utility hover-light {
+  @apply hover:brightness-125 transition-all duration-300 ease-in-out;
+}
