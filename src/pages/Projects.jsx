@@ -29,43 +29,45 @@ const Projects = () => {
   ];
 
   return (
-    <div
-      className="bg-dark-black pb-[13rem] pt-[11rem]"
-      data-aos="fade-bottom"
-      data-aos-anchor-placement="top-center"
-    >
-      <div className="heading-text-mobile text-purple text-center mb-[3rem] lg:mb-[66px] lg:heading-text">
-        MY PROJECTS
-      </div>
-      <div className="md:grid md:grid-cols-2 xl:grid-cols-3 lg:gap-[3rem] flex flex-col gap-[2rem] mx-[5rem]">
-        {projects.map((project, index) => (
-          <div key={index} className="bg-black flex-col px-[28px]">
-            <div className="semi-heading-text-mobile lg:semi-heading-text text-purple py-[2rem]">
-              {project.name}
-            </div>
-            <div className="text-grey-light regular-text-mobile lg:regular-text mb-[2rem]">
-              {project.description}
-            </div>
-            <div className="text-grey-light regular-text-mobile lg:regular-text mb-[2rem]">
-              {project.languages}
-            </div>
-            <div className="flex flex-col gap-[1.5rem] pb-[2rem]">
-              <button className="bg-purple w-[150px] h-[35px] text-grey-light rounded-sm regular-text-mobile lg:regular-text lg:w-[242px] lg:h-[63px] cursor-pointer hover-light">
-                <a href={project.sourceLink} target="_blank">
-                  Source Code
-                </a>
-              </button>
+    <>
+      <div
+        className="bg-dark-black pb-[13rem] pt-[11rem]"
+        data-aos="fade-bottom"
+        data-aos-anchor-placement="top-center"
+      >
+        <div className="heading-text-mobile text-purple text-center mb-[3rem] lg:mb-[66px] lg:heading-text">
+          MY PROJECTS
+        </div>
+        <div className="md:grid md:grid-cols-2 xl:grid-cols-3 lg:gap-[3rem] flex flex-col gap-[2rem] mx-[5rem]">
+          {projects.map((project, index) => (
+            <div key={index} className="bg-black flex-col px-[28px]">
+              <div className="semi-heading-text-mobile lg:semi-heading-text text-purple py-[2rem]">
+                {project.name}
+              </div>
+              <div className="text-grey-light regular-text-mobile lg:regular-text mb-[2rem]">
+                {project.description}
+              </div>
+              <div className="text-grey-light regular-text-mobile lg:regular-text mb-[2rem]">
+                {project.languages}
+              </div>
+              <div className="flex flex-col gap-[1.5rem] pb-[2rem]">
+                <button className="bg-purple w-[150px] h-[35px] text-grey-light rounded-sm regular-text-mobile lg:regular-text lg:w-[242px] lg:h-[63px] cursor-pointer hover-light">
+                  <a href={project.sourceLink} target="_blank">
+                    Source Code
+                  </a>
+                </button>
 
-              <button className="bg-grey-light w-[150px] h-[35px] text-black rounded-sm regular-text-mobile lg:regular-text lg:w-[242px] lg:h-[63px] cursor-pointer hover-dark">
-                <a href={project.demoLink} target="_blank">
-                  View Project
-                </a>
-              </button>
+                <button className="bg-grey-light w-[150px] h-[35px] text-black rounded-sm regular-text-mobile lg:regular-text lg:w-[242px] lg:h-[63px] cursor-pointer hover-dark">
+                  <a href={project.demoLink} target="_blank">
+                    View Project
+                  </a>
+                </button>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -21,25 +21,28 @@ const Footer = () => {
   ];
 
   return (
-    <div className="bg-black lg:flex-between lg:px-[122px] pt-[2rem] lg:pt-0">
-      <div className="text-[14px] font-medium lg:text-[20px] text-center text-purple">
-        <i className="fa-solid fa-copyright"></i> 2025 Vannet Nang. All rights reserved.
-      </div>
+    <>
+      <footer className="bg-black lg:flex-between lg:px-[122px] pt-[2rem] lg:pt-0">
+        <div className="text-[14px] font-medium lg:text-[20px] text-center text-purple">
+          <i className="fa-solid fa-copyright"></i> 2025 Vannet Nang. All rights
+          reserved.
+        </div>
 
-      <div className="flex-center mt-[2rem] pb-[2rem]">
-        {socialLinks.map((social, index) => (
-          <a
-            key={index}
-            href={social.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-grey-light text-[22px] lg:text-[30px] mx-[1rem]"
-          >
-            <i className={social.icon} style={{ color: "#8685ef" }}></i>
-          </a>
-        ))}
-      </div>
-    </div>
+        <div className="flex-center mt-[2rem] pb-[2rem]">
+          {socialLinks.map((social, index) => (
+            <a
+              key={index}
+              href={social.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-grey-light text-[22px] lg:text-[30px] mx-[1rem]"
+            >
+              <i className={social.icon} style={{ color: "#8685ef" }}></i>
+            </a>
+          ))}
+        </div>
+      </footer>
+    </>
   );
 };
 
