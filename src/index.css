@@ -12,6 +12,10 @@
   --color-dark-black: #292735;
 }
 
+::-webkit-scrollbar {
+  display: none
+}
+
 @utility heading-text {
   @apply text-[48px] font-bold tracking-[8.2px] 
 }

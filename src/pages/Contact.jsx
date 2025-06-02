@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { assets } from "../assets/assets";
 
@@ -27,18 +27,21 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log(import.meta.env.VITE_EMAILJS_SERVICE_ID);
+    
 
     emailjs
       .sendForm(
-        "service_g0laejf",
-        "template_7qezw17",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         form.current,
-        "k93v1Vjtq8ODwyby2"
+        import.meta.env.VITE_EMAILJS_API_KEY
       )
       .then(
         (result) => {
           console.log(result.text);
           alert("Message sent successfully!");
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
