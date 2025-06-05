@@ -27,15 +27,16 @@ This is my personal portfolio, a modern and responsive website designed to showc
 1. **Hero** - Introduction and call-to-action buttons
 2. **About** - Personal introduction and background
 3. **Skills** - Technical skills with progress bars
+   - Core Languages
    - Front-end Development
-   - Frameworks
+   - Back-end Development
    - UX/UI Design
    - Responsive Design
-4. **Projects** - Showcase of recent work
+5. **Projects** - Showcase of recent work
    - Gemini Clone
-   - Online Phone Store
+   - Online Shopping System
    - Chat Application
-5. **Contact** - Contact form and personal information
+6. **Contact** - Contact form and personal information
 
 ## 🚦 Getting Started
 
