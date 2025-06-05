@@ -5,6 +5,7 @@ import responsive_icon from "./icons/responsive_icon.png";
 import frontend_icon from "./icons/front-end.png";
 import framework_icon from "./icons/framework_icon.png";
 import cross_icon from "./icons/cross_icon.png";
+import database_icon from "./icons/database_icon.png";
 
 export const assets = {
   user_icon,
@@ -14,4 +15,5 @@ export const assets = {
   frontend_icon,
   framework_icon,
   cross_icon,
+  database_icon,
 };

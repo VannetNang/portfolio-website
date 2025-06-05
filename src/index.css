@@ -21,15 +21,15 @@
 }
 
 @utility semi-heading-text {
-  @apply text-[30px] font-medium tracking-[5.1px] 
+  @apply text-[30px] font-medium tracking-[4px] 
 }
 
 @utility regular-text {
-  @apply text-[20px] font-medium tracking-[3.4px] 
+  @apply text-[20px] font-medium tracking-[2px] 
 }
 
 @utility heading-text-mobile {
-  @apply text-[28px] font-bold tracking-[2px] 
+  @apply text-[28px] font-bold tracking-[1px] 
 }
 
 @utility semi-heading-text-mobile {

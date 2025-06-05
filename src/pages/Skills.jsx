@@ -5,22 +5,28 @@ const Skills = () => {
   const [isHovered, setIsHovered] = useState(false);
   const skills = [
     {
-      icon: assets.frontend_icon,
-      name: "Front-end",
-      details: "HTML, CSS, JavaScript",
+      icon: assets.framework_icon,
+      name: "Core Languages",
+      details: "HTML, CSS, JavaScript, Node.js",
       percent: "85%",
     },
     {
-      icon: assets.framework_icon,
-      name: "Frameworks",
-      details: "React, Next.js, Tailwind CSS, React Native",
+      icon: assets.frontend_icon,
+      name: "Front-end",
+      details: "React, Next.js, Tailwind CSS",
+      percent: "90%",
+    },
+    {
+      icon: assets.database_icon,
+      name: "Back-end",
+      details: "MongoDB, PostgreSQL, Express",
       percent: "75%",
     },
     {
       icon: assets.ux_ui_icon,
       name: "UX/UI Design",
       details: "Figma",
-      percent: "85%",
+      percent: "80%",
     },
     {
       icon: assets.responsive_icon,

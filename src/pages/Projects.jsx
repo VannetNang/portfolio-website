@@ -1,30 +1,28 @@
-import React from "react";
-
 const Projects = () => {
   const projects = [
     {
-      name: "GEMINI CLONE",
+      name: "Gemini Clone",
       description:
-        "A Gemini clone with voice recognition, save chat to history, dark & light mode, and be able to prompt just like the real Gemini.",
+        "This is a Front-end project only about Gemini Clone. It is built in with voice recognition, save chat to history, dark & light mode, and be able to prompt just like the real Gemini.",
       languages: "React, Tailwind CSS",
       sourceLink: "https://github.com/VannetNang/gemini-clone",
       demoLink: "https://gemini-clone-mu-three.vercel.app/",
     },
     {
-      name: "Online Phone Store",
-      description:
-        "Users can browse a variety of mobile phones, view product details, add items to their shopping cart, and make purchases.",
-      languages: "HTML, CSS, JavaScript",
-      sourceLink: "https://github.com/VannetNang/phone-store",
-      demoLink: "",
-    },
-    {
       name: "Chat Application",
       description:
-        "A simple real-time chat app for instant messaging, where users can search friends, send image, sign-in and login account, and edit their profile.",
+        "This is a simple real-time chat-app project for instant messaging with responsive layout, where users can search friends, send image, sign-in and login account, and edit their profile.",
       languages: "React, Firebase, Tailwind CSS",
       sourceLink: "https://github.com/VannetNang/stay-chat-app",
       demoLink: "https://stay-chat-app.vercel.app/",
+    },
+    {
+      name: "Online Shopping System",
+      description:
+        "This is a MERN stack application designed to manage an online shopping experience for a single online store. The system provides an admin dashboard for store owners to manage their product inventory and a frontend for customers to browse, purchase, and manage their orders including authentication.",
+      languages: "MongoDB, Express, React, Node.js, Tailwind CSS",
+      sourceLink: "https://github.com/VannetNang/online-shopping",
+      demoLink: "https://github.com/VannetNang/online-shopping",
     },
   ];
 

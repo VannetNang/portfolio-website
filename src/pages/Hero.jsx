@@ -19,9 +19,9 @@ const Hero = () => {
         </div>
 
         <div className="regular-text-mobile text-grey-light leading-[162%] mb-[37px] px-[58px] lg:px-[309px] lg:regular-text lg:mb-[104px]">
-          I’m a software developer, graduated at American University of Phnom
-          Penh. My goal is to bring ideas to technology life and improve human’s
-          experience toward their life.
+          I'm a junior majoring in Software Development at the American
+          University of Phnom Penh. My goal is to bring ideas to technology life
+          and improve human’s experience toward their life.
         </div>
 
         <div className="lg:flex-center gap-[174px]">
