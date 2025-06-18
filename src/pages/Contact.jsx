@@ -55,6 +55,7 @@ const Contact = () => {
         className="pt-[11rem] bg-dark-black pb-[9rem]"
         data-aos="fade-bottom"
         data-aos-anchor-placement="top-center"
+        data-aos-duration="800"
       >
         <div className="heading-text-mobile lg:heading-text text-center text-purple mb-[40px] lg:mb-[60px]">
           CONTACT ME

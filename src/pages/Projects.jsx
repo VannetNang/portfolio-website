@@ -30,8 +30,9 @@ const Projects = () => {
     <>
       <div
         className="bg-dark-black pb-[13rem] pt-[11rem]"
-        data-aos="fade-bottom"
+        data-aos="fade-left"
         data-aos-anchor-placement="top-center"
+        data-aos-duration="800"
       >
         <div className="heading-text-mobile text-purple text-center mb-[3rem] lg:mb-[66px] lg:heading-text">
           MY PROJECTS

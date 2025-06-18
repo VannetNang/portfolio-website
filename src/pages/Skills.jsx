@@ -44,8 +44,9 @@ const Skills = () => {
     <>
       <div
         className="bg-dark-black px-[1.5rem] pb-[16rem] lg:px-[11.8rem] pt-[11rem]"
-        data-aos="fade-bottom"
+        data-aos="zoom-in"
         data-aos-anchor-placement="top-center"
+        data-aos-duration="800"
       >
         <div className="heading-text-mobile text-purple text-center mb-[40px] lg:mb-[60px] lg:heading-text">
           SKILLS
