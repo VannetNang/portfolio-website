@@ -1,6 +1,6 @@
-# Personal Portfolio Website
-
 <img src="public/thumbnail.png" alt="Thumbnail Banner" width="100%" />
+
+# Personal Portfolio Website
 
 This is my personal portfolio, a modern and responsive website designed to showcase my work. Built with React and Tailwind CSS, it features a clean aesthetic and smooth animations for an engaging user experience.
 
@@ -77,8 +77,8 @@ npm run dev
 
 Vannet Nang
 
-- Email: NangVannet59@gmail.com
-- LinkedIn: [vannetnang](https://www.linkedin.com/in/vannetnang/)
+- Email: VannetNang59@gmail.com
+- LinkedIn: [VannetNang](https://www.linkedin.com/in/vannetnang/)
 - GitHub: [VannetNang](https://github.com/VannetNang)
 
 ## 🙏 Acknowledgments

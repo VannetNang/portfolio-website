@@ -16,7 +16,7 @@ const Contact = () => {
       icon: "fa-solid fa-envelope",
       name: "Email Address",
       contactIcon: assets.ux_ui_icon,
-      contactDetail: "NangVannet59@gmail.com",
+      contactDetail: "VannetNang59@gmail.com",
     },
     {
       icon: "fa-solid fa-location-dot",

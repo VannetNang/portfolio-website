@@ -22,7 +22,7 @@ const Projects = () => {
         "This is a MERN stack application designed to manage an online shopping experience for a single online store. The system provides an admin dashboard for store owners to manage their product inventory and a frontend for customers to browse, purchase, and manage their orders including authentication.",
       languages: "MongoDB, Express, React, Node.js, Tailwind CSS",
       sourceLink: "https://github.com/VannetNang/online-shopping",
-      demoLink: "https://github.com/VannetNang/online-shopping",
+      demoLink: "https://online-shopping-eta-nine.vercel.app/",
     },
   ];
 
