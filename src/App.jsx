@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
 import { ToastContainer } from "react-toastify";
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
@@ -34,6 +35,9 @@ const App = () => {
       </section>
 
       <Footer />
+
+      {/* Vercel Viewers Analysis */}
+      <Analytics />
     </>
   );
 };
