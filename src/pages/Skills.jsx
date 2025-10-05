@@ -13,13 +13,19 @@ const Skills = () => {
     {
       icon: assets.frontend_icon,
       name: "Front-end",
-      details: "React, Next.js, Tailwind CSS",
+      details: "React, Tailwind CSS",
       percent: "90%",
     },
     {
       icon: assets.database_icon,
       name: "Back-end",
-      details: "MongoDB, PostgreSQL, Express",
+      details: "MongoDB, Express",
+      percent: "75%",
+    },
+    {
+      icon: assets.mobile_icon,
+      name: "Mobile App",
+      details: "Flutter",
       percent: "75%",
     },
     {
