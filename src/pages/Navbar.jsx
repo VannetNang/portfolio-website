@@ -39,7 +39,7 @@ const Navbar = () => {
           <div>
             <a href="#">
               <img
-                src={assets.user_icon}
+                src={assets.my_logo}
                 alt="Logo Icon"
                 className="logo-rounded-mobile md:logo-rounded"
               />

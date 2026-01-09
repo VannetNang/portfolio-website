@@ -15,9 +15,9 @@ const AboutMe = () => {
         <div className="flex flex-col lg:flex-row lg:flex-center lg:gap-[5rem]">
           <div className="m-[43px] flex-center">
             <img
-              src={assets.user_icon}
+              src={assets.user_photo}
               alt="User Icon"
-              className="w-[252px] h-[256px] lg:w-[379px] lg:h-[420px]"
+              className="w-[252px] h-[256px] lg:w-[400px] lg:h-[480px]"
             />
           </div>
 

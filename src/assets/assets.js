@@ -8,6 +8,7 @@ import cross_icon from "./icons/cross_icon.png";
 import database_icon from "./icons/database_icon.png";
 import my_logo from "./icons/my_logo.png";
 import mobile_icon from "./icons/mobile-icon.png";
+import user_photo from "./icons/formal_photo.jpg"
 
 export const assets = {
   user_icon,
@@ -19,5 +20,6 @@ export const assets = {
   cross_icon,
   database_icon,
   my_logo,
-  mobile_icon
+  mobile_icon,
+  user_photo
 };
