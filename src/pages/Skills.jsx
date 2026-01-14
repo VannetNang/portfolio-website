@@ -7,8 +7,8 @@ const Skills = () => {
     {
       icon: assets.framework_icon,
       name: "Core Languages",
-      details: "HTML, CSS, JavaScript, Node.js",
-      percent: "85%",
+      details: "HTML, CSS, JavaScript, PHP, Node.js",
+      percent: "90%",
     },
     {
       icon: assets.frontend_icon,
@@ -19,26 +19,26 @@ const Skills = () => {
     {
       icon: assets.database_icon,
       name: "Back-end",
-      details: "MongoDB, Express",
-      percent: "75%",
+      details: "MongoDB, Express, Laravel, SQLite",
+      percent: "85%",
     },
     {
       icon: assets.mobile_icon,
       name: "Mobile App",
       details: "Flutter",
-      percent: "75%",
+      percent: "70%",
     },
     {
       icon: assets.ux_ui_icon,
       name: "UX/UI Design",
       details: "Figma",
-      percent: "80%",
+      percent: "85%",
     },
     {
       icon: assets.responsive_icon,
       name: "Responsive Design",
       details: "Mobile-first, Cross-browser",
-      percent: "80%",
+      percent: "90%",
     },
   ];
 
